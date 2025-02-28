@@ -4,7 +4,6 @@ namespace App\Models;
 
 use App\Offer;
 use App\ProviderType;
-use App\ProviderTypeInner;
 use App\Type;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -131,5 +130,10 @@ class Provider extends Model
     public function typeInner()
     {
         return $this->hasMany(ProviderTypeInner::class,'provider_id');
+    }
+
+    public function deliveryArea()
+    {
+        return $this->hasMany(DeliveryArea::class,'provider_id');
     }
 }

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c01d9b6-9d79-46c5-b06c-0a80bbafe68d" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DeliveryAreaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/DeliveryArea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/FulfillmentTimeRange.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProviderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProviderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Provider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +39,13 @@
     &quot;accountId&quot;: &quot;eb141ca8-8a4c-4b6c-ae02-9251917584cc&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/resources/views/admin/assets/css/old.css" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\Project\xampp\php\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
@@ -211,35 +219,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/eboro-laravel&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/eboro-laravel/app/Http/Controllers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.log",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\eboro-laravel\app\Http\Controllers" />
+      <recent name="D:\Project\eboro-laravel\app\Models" />
       <recent name="C:\AppServ\www\eboro\resources\views\admin\setting" />
       <recent name="C:\AppServ\www\eboro\app\Http\Resources" />
       <recent name="C:\AppServ\www\eboro\app\Http\Requests" />
-      <recent name="C:\AppServ\www\eboro\app" />
-      <recent name="C:\AppServ\www\eboro\app\Repository" />
     </key>
   </component>
   <component name="RunManager">
@@ -257,6 +265,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hashem.mohamed\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3c01d9b6-9d79-46c5-b06c-0a80bbafe68d" name="Changes" comment="" />
@@ -374,7 +385,7 @@
       <workItem from="1740764422394" duration="26000" />
       <workItem from="1740764465551" duration="471000" />
       <workItem from="1740764948630" duration="1342000" />
-      <workItem from="1740766366690" duration="2066000" />
+      <workItem from="1740766366690" duration="3602000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="apple sign in">
       <created>1718861635154</created>
@@ -441,7 +452,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740768426344</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1740768533670</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740768533670</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

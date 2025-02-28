@@ -104,7 +104,11 @@ class ProviderController extends Controller
                 ]);
             }
         }
-
+        $timeRanges = DB::table('fulfillment_time_range')
+            ->join('delivery_area', 'fulfillment_time_range.id', '=', 'delivery_area.fulfillment_time_id')
+            ->where('delivery_area.providerId', $provider->id)
+            ->select('fulfillment_time_range.*', 'delivery_area.providerId') // Adjust selection as needed
+            ->get();
         return $this->apiResponse->setSuccess(trans('admin.updated'))->setCode(200)->send();
     }
 
