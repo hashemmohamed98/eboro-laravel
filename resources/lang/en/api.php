@@ -1,0 +1,25 @@
+<?php
+return [
+    'old_password' => 'Old Password',
+    'user_mobile' => "User's Mobile",
+    'country' => "Country",
+    'login_error' => "Wrong Email Or Password",
+    'password_changed' => "Password Changed",
+    'password_error' => "Password is incorrect",
+    'unauthorized' => "Unauthorized",
+    'verification' => "Verification Code Send",
+    'email_not_found' => "This Email Not Found",
+    'message_send' => "Message Send Successfully",
+    'thanks' => "Thanks",
+    'verify_code' => "Verify Code",
+    'verification_code_error' => "Wrong Verify Code",
+    'verification_send' => "Verification Code Send",
+    'user_active' => "User Now Active",
+    'active_your_user' => "Active Your Account First",
+    'verify_your_user' => "Verify Your Email First, We Send Verification Code To Your Email",
+    'some_thing_wrong' => "Something Is Wrong",
+    'image' => "Image",
+    'inactive_message' => "Sorry, Your Account Is Disable. Contact Management",
+    'address' => "address",
+    'refund'=>'error the cancel of order must be in first of 5 minutes from order created'
+];

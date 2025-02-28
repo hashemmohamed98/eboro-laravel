@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.086" height="14.296" viewBox="0 0 16.086 14.296">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffde05"/>
+      <stop offset="0.216" stop-color="#ffd403"/>
+      <stop offset="0.574" stop-color="#fb0"/>
+      <stop offset="0.577" stop-color="#fb0"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-edit" data-name="Icon awesome-edit" d="M11.244,2.328l2.519,2.519a.273.273,0,0,1,0,.385l-6.1,6.1-2.592.288a.543.543,0,0,1-.6-.6l.288-2.592,6.1-6.1A.273.273,0,0,1,11.244,2.328Zm4.524-.64L14.405.325a1.092,1.092,0,0,0-1.542,0l-.989.989a.273.273,0,0,0,0,.385l2.519,2.519a.273.273,0,0,0,.385,0l.989-.989A1.092,1.092,0,0,0,15.768,1.688ZM10.724,9.673v2.843H1.787V3.579H8.205a.343.343,0,0,0,.237-.1L9.56,2.364a.335.335,0,0,0-.237-.573H1.341A1.341,1.341,0,0,0,0,3.132v9.831A1.341,1.341,0,0,0,1.341,14.3h9.831a1.341,1.341,0,0,0,1.341-1.341V8.556a.336.336,0,0,0-.573-.237L10.822,9.435A.343.343,0,0,0,10.724,9.673Z" transform="translate(0 -0.007)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,110 @@
+<?php
+
+return [
+
+    "beverages"=> [
+        'beverages'=> 'Le bevande',
+        'price'=> 'Prezzo',
+        'sort'=> 'Ordina per',
+        'add_product'=> 'Informazioni sul prodotto',
+        'category'=> 'Categoria',
+        'category_id'=> 'Categoria ID',
+        'addition'=> 'Aggiunta',
+        'branch'=> 'Ramo',
+        'branch_name'=> 'Nome filiale',
+        'branch_status'=> 'Stato filiale',
+        'location_map'=> 'Mappa di localizzazione',
+        'open_times'=> 'Orari aperti',
+        'open_days'=> 'Giornate aperte',
+        'name'=> 'Nome',
+        'id'=> 'ID',
+        'role'=> 'Ruolo',
+        'status'=> 'Stato',
+        'username'=> 'Nome utente',
+        'action'=> 'Azione',
+        'product_name'=> 'nome del prodotto',
+        'type'=> 'genere',
+        'product_type'=> 'Tipologia di prodotto',
+        'way'=> 'Modo',
+        'steps'=> 'Passi',
+        'size'=> 'Taglia',
+        'calories'=> 'Calorie',
+        'addition'=> 'Aggiunta',
+        'lard'=> 'Lardo',
+        'alcohol'=> 'alcol',
+        'created_at'=> 'Creato a',
+        'order_at'=> 'Ordine a',
+        'sauce_information'=> 'Informazioni sulla salsa',
+        'beverages_information'=> 'Informazioni sulle bevande',
+        'sauce_name'=> 'Nome della salsa',
+        'select_sauce'=> 'selezionare la salsa'
+    ],
+    "cashers"=> [
+        'casher_info'=> 'Informazioni sul cassiere',
+        'casher_name'=> 'Nome cassiere',
+        'email'=> 'E-Mail',
+        'old_photo'=> 'Vecchia foto',
+        'rest_casher'=> 'Cassieri del ristorante',
+    ],
+    "Navmenu"=> [
+        'Dashboard'=> 'piatta forma',
+        'Orders'=> 'Ordini',
+        'Cashers'=> 'Cashers',
+        'Delivery'=> 'Consegna',
+        'Sauce'=> 'Extra',
+        'Beverages'=> 'Le bevande',
+    ],
+    "admin"=>[
+        'admin_info'=> "Informazioni sull'amministratore",
+        'admin_name'=> 'Nome amministratore',
+        'rest_admin'=> 'Amministratore del ristorante'
+    ],
+    "delivery"=>[
+        'delivery_info'=> 'Informazioni sulla rider',
+        'delivery_name'=> 'Nome consegna Delivery',
+        'delivery_man'=> 'fattorino',
+        'delivery_titme'=> 'Tempo consegnato',
+        'order_status'=> "Lo stato dell'ordine",
+        'payment'=> 'pagamento',
+
+    ],
+    "home"=>[
+        'rest_dashboard'=> 'Dashboard ristorante',
+        'total_branches'=> 'Filiali totali',
+        'total_deliveries'=> 'Consegne totali',
+        'branch'=> 'Ramo',
+        'total_cashers'=> 'Cashers totali',
+        'total_products'=> 'Prodotti totali',
+        'total_orders'=> 'Ordini totali',
+        'total_earnings'=> 'entrate totali',
+        'p_sold'=> 'Prodotto venduto',
+        'product_type'=> 'Tipologia di prodotto',
+        'daily_orders'=> 'Ordini giornalieri',
+        'prepare' => 'preparare'
+    ],
+    "sauce"=>[
+        'sauce_info'=> ' Informazioni sulla Extra',
+        'select_sauce'=> 'Seleziona Extra',
+        'select_product'=> 'Seleziona il prodotto',
+        'sauce'=> 'Extra'
+    ],
+    "orders"=>[
+        'title'=> 'Ordini del ristorante',
+    ],
+    "branch"=>[
+        'add_branch'=> 'Aggiungi ramo',
+        'branch_name'=> 'Nome filiale',
+        'provider_id'=> 'Provider ID',
+        'hotline_number'=> 'Numero della hotline',
+        'branch_address'=> 'Indirizzo filiale',
+        'rest_branch'=> 'Ristorante ramo',
+        'status'=> 'Stato',
+        'open_time'=> 'Tempo aperto',
+        'close_time'=> 'Tempo chiusura',
+        'open_days'=> 'Giornate aperte',
+        'lat'=> 'Lat',
+        'long'=> 'Long',
+        'edit'=> 'modifica',
+        'info'=> 'Informazioni'
+    ]
+];
