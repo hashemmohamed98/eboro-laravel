@@ -75,7 +75,7 @@ Route::middleware(['CWeb'])->group(function ()
 //});
 
 
-
+Route::post('/provider/{provider}/delivery-area', [\App\Http\Controllers\DeliveryAreaController::class, 'store'])->name('delivery-area.store');
 Route::get('login/facebook', 'Auth\LoginController@redirect_facebook');
 Route::get('login/facebook/callback', 'Auth\LoginController@handle_Facebook_allback');
 
@@ -84,3 +84,10 @@ Route::get('login/google/callback', 'Auth\LoginController@handle_google_allback'
 
 Route::get('login/apple', 'Auth\LoginController@redirect_apple');
 Route::post('login/apple/callback', 'Auth\LoginController@handle_apple_callback');
+Route::get('resources/views/site/assets/{path}', function ($path) {
+    $file = resource_path("resources/views/site/assets/{$path}");
+    if (file_exists($file)) {
+        return response()->file($file);
+    }
+    abort(404);
+})->where('path', '.*');
